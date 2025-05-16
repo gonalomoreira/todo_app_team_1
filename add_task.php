@@ -7,6 +7,6 @@ mysqli_query($connection, $query);
 header("Location: index.php");
 
 if (empty($_POST['task']) === '') {
-        throw new Exception("Erro: A tarefa não pode estar vazia.");
+        throw new Exception("Por favor, preencha o campo de tarefa.");
     }
 ?>
