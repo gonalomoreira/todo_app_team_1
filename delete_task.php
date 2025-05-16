@@ -1,6 +1,6 @@
 
 <?php
-$connection = mysqli_connect("localhost", "root", "", "todo_app");
+$connection = mysqli_connect("localhost", "root", "yourpassword", "todo_app");
 $id = $_GET['id'];
 $query = "DELETE FROM tasks WHERE id = $id";
 mysqli_query($connection, $query);

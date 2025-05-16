@@ -1,6 +1,6 @@
 
 <?php
-$connection = mysqli_connect("localhost", "root", "", "todo_app");
+$connection = mysqli_connect("localhost", "root", "yourpasswordt ", "todo_app");
 $query = "SELECT * FROM tasks";
 $result = mysqli_query($connection, $query);
 ?>
